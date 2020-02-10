@@ -4,10 +4,11 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: RiverTerrain
-  m_Shader: {fileID: 4800000, guid: 2225a3bd63dcb6e4f85c88b2acdb0d99, type: 3}
+  m_Shader: {fileID: 10620, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _2NDENABLED_ON _BLENDENABLETHIS_ON _SECONDARYENABLETHIS_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -186,6 +187,7 @@ Material:
     - _SSRefractionStrength: 0.051
     - _SecondaryEnableThis: 1
     - _SecondaryHeightStrength: 0.424
+    - _Shininess: 0.078125
     - _Smoothness: 0.831
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -216,3 +218,4 @@ Material:
     - _PrimaryUandVspeedZandWnoaffects: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _SecondaryUandVspeedZWNotused: {r: -0.01, g: -0.00375, b: 0, a: 0}
     - _SecondaryUandVspeedZandWnoaffects: {r: -0.05, g: -0.075, b: 0, a: 0}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
