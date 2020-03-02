@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
-using UnityEngine.SpatialTracking;
+//using UnityEngine.SpatialTracking;
 
 namespace Zenva.VR
 {
-    public class AutoPoseSource : MonoBehaviour
+    //public class AutoPoseSource : MonoBehaviour
     {
-        private TrackedPoseDriver trackedPoseDriver;
+        //private TrackedPoseDriver trackedPoseDriver;
         private AxisController axisController;
         private ButtonController buttonController;
 
